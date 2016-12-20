@@ -20,6 +20,8 @@ public class DemoJenkings {
         // And now use this to visit Google
         driver.get("http://www.google.com");
         System.out.println(driver.getTitle());
+        System.out.println(driver.getTitle());
+        System.out.println(driver.getTitle());
         driver.quit();
 		
 		
