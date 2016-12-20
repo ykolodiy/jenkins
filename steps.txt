@@ -1,0 +1,10 @@
+1 created java project
+2 created testng class
+3 added testng and selenium jars in the folder lib
+4 added classpath=bin and lib\*
+5 started jenkins java -jar jenkins.war
+6 created freestyle project
+7 added project to github
+8 added github to jenkins
+9 trigers after commit in 1 min
+https://www.youtube.com/watch?v=1e8I3A49ERc
