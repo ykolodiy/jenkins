@@ -1,0 +1,36 @@
+just selenium test
+1 make testng project
+2 create testng.xml
+3 in cmd set classpath=C:\workfolder\bin;C:\workfolder\lib\*;   (at bin binary file of test at lib jars what u need)
+4 run cmd in work folder > java org.testng.TestNG  testng.xml
+5 creat bat file to run: java -cp bin;lib/* org.testng.TestNG testng.xml  >>>>>save run.bat
+
+6 jenkins>fristyle project>advanced project options > use custom workspace > give project dir > Build > Execute windows bat > run.bat> apply
+
+
+
+maven https://www.youtube.com/watch?annotation_id=annotation_2485637071&feature=iv&src_vid=A4Z1F7gJvkY&v=nasdb9QhFqg
+
+mvn test install
+
+jenkings https://www.youtube.com/watch?v=A4Z1F7gJvkY
+
+java -cp target\Pearson.Maven-SNAPSHOT.jar Pearson.Pearson.Maven.App
+
+be in folder C:\Users\vkoloyu\workspace\Pearson.Maven:
+
+java -cp target/my-app-1.0-SNAPSHOT.jar com.mycompany.app.App
+|-- pom.xml
+`-- src
+    |-- main
+    |   `-- java
+    |       `-- com
+    |           `-- mycompany
+    |               `-- app
+    |                   `-- App.java
+    `-- test
+        `-- java
+            `-- com
+                `-- mycompany
+                    `-- app
+                        `-- AppTest.java
