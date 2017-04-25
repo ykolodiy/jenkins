@@ -8,3 +8,16 @@
 8 added github to jenkins
 9 trigers after commit in 1 min
 https://www.youtube.com/watch?v=1e8I3A49ERc
+
+
+
+
+just selenium test
+1 make testng project
+2 create testng.xml
+3 in cmd set classpath=C:\workfolder\bin;C:\workfolder\lib\*;   (at bin binary file of test at lib jars what u need)
+4 run cmd in work folder > java org.testng.TestNG  testng.xml
+5 creat bat file to run: java -cp bin;lib/* org.testng.TestNG testng.xml  >>>>>save run.bat
+
+6 jenkins>fristyle project>advanced project options > use custom workspace > give project dir > Build > Execute windows bat > run.bat> apply
+
