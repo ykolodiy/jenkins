@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="41574" started-at="2017-04-25T19:55:01Z" finished-at="2017-04-25T19:55:42Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="41574" started-at="2017-04-25T19:55:01Z" finished-at="2017-04-25T19:55:42Z">
+      <class name="dayly_check.Search">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:dayly_check.Search@33a10788]" name="beforeMethod" is-config="true" duration-ms="4065" started-at="2017-04-25T14:55:24Z" finished-at="2017-04-25T14:55:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="acorn1()[pri:1, instance:dayly_check.Search@33a10788]" name="acorn1" duration-ms="1701" started-at="2017-04-25T14:55:28Z" finished-at="2017-04-25T14:55:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acorn1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:dayly_check.Search@33a10788]" name="afterMethod" is-config="true" duration-ms="220" started-at="2017-04-25T14:55:30Z" finished-at="2017-04-25T14:55:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:dayly_check.Search@33a10788]" name="beforeMethod" is-config="true" duration-ms="4297" started-at="2017-04-25T14:55:30Z" finished-at="2017-04-25T14:55:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="acorn2()[pri:2, instance:dayly_check.Search@33a10788]" name="acorn2" duration-ms="1762" started-at="2017-04-25T14:55:34Z" finished-at="2017-04-25T14:55:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acorn2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:dayly_check.Search@33a10788]" name="afterMethod" is-config="true" duration-ms="216" started-at="2017-04-25T14:55:36Z" finished-at="2017-04-25T14:55:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:dayly_check.Search@33a10788]" name="beforeMethod" is-config="true" duration-ms="4031" started-at="2017-04-25T14:55:36Z" finished-at="2017-04-25T14:55:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="acorn3()[pri:3, instance:dayly_check.Search@33a10788]" name="acorn3" duration-ms="1691" started-at="2017-04-25T14:55:40Z" finished-at="2017-04-25T14:55:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acorn3 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:dayly_check.Search@33a10788]" name="afterMethod" is-config="true" duration-ms="242" started-at="2017-04-25T14:55:42Z" finished-at="2017-04-25T14:55:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- dayly_check.Search -->
+      <class name="dayly_check.Cart">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:dayly_check.Cart@7bb11784]" name="beforeMethod" is-config="true" duration-ms="2789" started-at="2017-04-25T14:55:15Z" finished-at="2017-04-25T14:55:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="acorn1()[pri:1, instance:dayly_check.Cart@7bb11784]" name="acorn1" duration-ms="14" started-at="2017-04-25T14:55:18Z" finished-at="2017-04-25T14:55:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acorn1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:dayly_check.Cart@7bb11784]" name="afterMethod" is-config="true" duration-ms="188" started-at="2017-04-25T14:55:18Z" finished-at="2017-04-25T14:55:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:dayly_check.Cart@7bb11784]" name="beforeMethod" is-config="true" duration-ms="2931" started-at="2017-04-25T14:55:18Z" finished-at="2017-04-25T14:55:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="acorn2()[pri:2, instance:dayly_check.Cart@7bb11784]" name="acorn2" duration-ms="19" started-at="2017-04-25T14:55:21Z" finished-at="2017-04-25T14:55:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acorn2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:dayly_check.Cart@7bb11784]" name="afterMethod" is-config="true" duration-ms="164" started-at="2017-04-25T14:55:21Z" finished-at="2017-04-25T14:55:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:dayly_check.Cart@7bb11784]" name="beforeMethod" is-config="true" duration-ms="2751" started-at="2017-04-25T14:55:21Z" finished-at="2017-04-25T14:55:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="acorn3()[pri:3, instance:dayly_check.Cart@7bb11784]" name="acorn3" duration-ms="10" started-at="2017-04-25T14:55:24Z" finished-at="2017-04-25T14:55:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acorn3 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:dayly_check.Cart@7bb11784]" name="afterMethod" is-config="true" duration-ms="173" started-at="2017-04-25T14:55:24Z" finished-at="2017-04-25T14:55:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- dayly_check.Cart -->
+      <class name="dayly_check.PSHomePage">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:dayly_check.PSHomePage@63d4e2ba]" name="beforeMethod" is-config="true" duration-ms="5110" started-at="2017-04-25T14:55:01Z" finished-at="2017-04-25T14:55:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="acorn1()[pri:1, instance:dayly_check.PSHomePage@63d4e2ba]" name="acorn1" duration-ms="17" started-at="2017-04-25T14:55:06Z" finished-at="2017-04-25T14:55:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acorn1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:dayly_check.PSHomePage@63d4e2ba]" name="afterMethod" is-config="true" duration-ms="186" started-at="2017-04-25T14:55:06Z" finished-at="2017-04-25T14:55:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:dayly_check.PSHomePage@63d4e2ba]" name="beforeMethod" is-config="true" duration-ms="4374" started-at="2017-04-25T14:55:06Z" finished-at="2017-04-25T14:55:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="acorn2()[pri:2, instance:dayly_check.PSHomePage@63d4e2ba]" name="acorn2" duration-ms="21" started-at="2017-04-25T14:55:10Z" finished-at="2017-04-25T14:55:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acorn2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:dayly_check.PSHomePage@63d4e2ba]" name="afterMethod" is-config="true" duration-ms="199" started-at="2017-04-25T14:55:10Z" finished-at="2017-04-25T14:55:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:dayly_check.PSHomePage@63d4e2ba]" name="beforeMethod" is-config="true" duration-ms="4189" started-at="2017-04-25T14:55:11Z" finished-at="2017-04-25T14:55:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="acorn3()[pri:3, instance:dayly_check.PSHomePage@63d4e2ba]" name="acorn3" duration-ms="14" started-at="2017-04-25T14:55:15Z" finished-at="2017-04-25T14:55:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acorn3 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:dayly_check.PSHomePage@63d4e2ba]" name="afterMethod" is-config="true" duration-ms="176" started-at="2017-04-25T14:55:15Z" finished-at="2017-04-25T14:55:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- dayly_check.PSHomePage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
