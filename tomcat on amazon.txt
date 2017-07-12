@@ -1,0 +1,39 @@
+https://serverfault.com/questions/316686/run-tomcat-and-java-on-amazon-ec2-instance
+
+
+
+http://ec2-34-211-112-79.us-west-2.compute.amazonaws.com
+
+1 create folder
+2 download wget http://mirrors.ocf.berkeley.edu/apache/tomcat/tomcat-9/v9.0.0.M22/bin/apache-tomcat-9.0.0.M22.tar.gz
+3 unzip tar -xzvf apache-tomcat-9.0.0.M22.tar.gz
+4 rename mv f1 f2
+5 START run sudo /opt/tomcat/apache-tomcat-.../bin/startup.sh
+
+
+
+PErmission
+sudo chown -R ubuntu:ubuntu /var/opt/tomcat/tomcat9
+sudo chmod -R 755 /var/opt/tomcat/tomcat9
+
+
+
+go to
+ /usr/local/tomcat9/bin
+
+open nano setenv.sh and add
+JAVA_HOME=/usr/lib/jvm/java-8-oracle/bin/javac
+export CATALINA_OPTS="$CATALINA_OPTS - xMS128m -Xmx1024m -XX:MaxPermSize=256m"
+
+It looks as if Tomcat had started > sudo fuser -v -n tcp 8080
+
+
+
+start /var/opt/tomcat/tomcat9/bin
+you need to make the file executable. run chmod +x startup.sh and then sudo ./startup.sh
+
+stop  /var/opt/tomcat/tomcat9/bin
+you need to make the file executable. run chmod +x shutdown.sh and then sudo ./shutdown.sh
+
+
+change port /var/opt/tomcat/tomcat9/conf/server.xml  from 8080 to any *5555  and add new port to amazon security group (restart tomcat)
