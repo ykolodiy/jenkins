@@ -1,1 +1,4 @@
 copy jenkins.war to tomcar/webapps folder
+executable all files tomcat: tomcat/bin make all files executable: chmod +x *.sh
+start tomcat ./startup.sh
+port 8080
