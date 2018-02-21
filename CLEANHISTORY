@@ -1,0 +1,15 @@
+http://codeketchup.blogspot.com/2016/05/how-to-clean-and-reset-jenkins-build.html
+
+
+
+Run the script to clean and reset
+
+Copy and paste this script to your Console Script text area and change the "copy_folder" to project name that you need to clean the history. Then click the "Run button". 
+
+
+def jobName = "copy_folder"
+def job = Jenkins.instance.getItem(jobName)
+job.getBuilds().each { it.delete() }
+job.nextBuildNumber = 1
+job.save()
+Now check your Build History for the particular project, Wow!, it's clean now!
