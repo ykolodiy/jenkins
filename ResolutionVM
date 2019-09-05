@@ -1,0 +1,16 @@
+
+
+In regedit.exe as admin:
+
+ 
+
+Go to the location HKLM\SYSTEM\CurrentControlSet\Control\Terminal Server
+Create or edit the DWORD value of KeepAliveEnable
+Set it to 1.
+Save and quit
+
+
+
+
+
+it remembers last session resolution and run scripts in it
